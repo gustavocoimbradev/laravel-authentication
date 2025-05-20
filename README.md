@@ -27,7 +27,7 @@ cd laravel-authentication
 
 ```bash
 composer install
-npm install && npm run dev
+npm install && npm run build
 ```
 
 ### 2. Environment setup
