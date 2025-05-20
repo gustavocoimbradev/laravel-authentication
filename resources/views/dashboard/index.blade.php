@@ -1,9 +1,13 @@
 @extends('layouts.main')
 
-<main class="c-box">
+@section('title', 'Dashboard')
 
-    <div class="c-box__header">Hello, {{ $user->name }}!</div>
+@section('content')
+    <main class="c-box">
 
-    <a href="{{ route('logout.index') }}" class="c-button c-button--danger">Logout</a>
+        <div class="c-box__header">Hello, {{ $user->name }}!</div>
 
-</main>
+        <a href="{{ route('logout.index') }}" class="c-button c-button--danger">Logout</a>
+
+    </main>
+@endsection

@@ -1,28 +1,34 @@
 @extends('layouts.main')
 
-<main class="c-box">
+@section('title', 'Log in')
 
-    <div class="c-box__header">Log in</div>
+@section('content')
 
-    <x:alert />
+    <main class="c-box">
 
-    <form class="c-form" action="{{ route('login.authenticate') }}" method="POST">
-        @csrf
+        <div class="c-box__header">Log in</div>
 
-        <fieldset class="c-form__field">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" value="{{ old('email') }}">
-        </fieldset>
+        <x:alert />
 
-        <fieldset class="c-form__field">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" value="{{ old('password') }}">
-        </fieldset>
+        <form class="c-form" action="{{ route('login.authenticate') }}" method="POST">
+            @csrf
 
-        <button class="c-button c-button--primary" type="submit">Login</button>
+            <fieldset class="c-form__field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" value="{{ old('email') }}">
+            </fieldset>
 
-        <a href="{{ route('register.create') }}">Create account</a>
+            <fieldset class="c-form__field">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" value="{{ old('password') }}">
+            </fieldset>
 
-    </form>
+            <button class="c-button c-button--primary" type="submit">Login</button>
 
-</main>
+            <a href="{{ route('register.create') }}">Create account</a>
+
+        </form>
+
+    </main>
+
+@endsection

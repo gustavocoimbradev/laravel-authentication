@@ -1,33 +1,37 @@
 @extends('layouts.main')
 
-<main class="c-box">
+@section('title', 'Create account')
 
-    <div class="c-box__header">Create account</div>
-    
-    <x:alert />
+@section('content')
+    <main class="c-box">
 
-    <form class="c-form" action="{{ route('register.store') }}" method="POST">
-        @csrf
+        <div class="c-box__header">Create account</div>
+        
+        <x:alert />
 
-        <fieldset class="c-form__field">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" value="{{ old('name') }}">
-        </fieldset>
+        <form class="c-form" action="{{ route('register.store') }}" method="POST">
+            @csrf
 
-        <fieldset class="c-form__field">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" value="{{ old('email') }}">
-        </fieldset>
+            <fieldset class="c-form__field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" value="{{ old('name') }}">
+            </fieldset>
 
-        <fieldset class="c-form__field">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" value="{{ old('password') }}">
-        </fieldset>
+            <fieldset class="c-form__field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" value="{{ old('email') }}">
+            </fieldset>
 
-        <button class="c-button c-button--primary" type="submit">Create account</button>
+            <fieldset class="c-form__field">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" value="{{ old('password') }}">
+            </fieldset>
 
-        <a href="{{ route('login.form') }}">I am already registered</a>
+            <button class="c-button c-button--primary" type="submit">Create account</button>
 
-    </form>
+            <a href="{{ route('login.form') }}">I am already registered</a>
 
-</main>
+        </form>
+
+    </main>
+@endsection
