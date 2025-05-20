@@ -1,0 +1,88 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+* {
+    @apply outline-none;
+}
+
+body {
+    @apply flex items-center justify-center min-h-[100dvh] bg-slate-100;
+}
+
+/* Box */
+
+.c-box {
+    @apply m-auto w-[400px] bg-white px-8 pb-8 shadow-xl shadow-slate-600/10 rounded-4xl;
+}
+
+.c-box__header {
+    @apply border-b-1 border-slate-200 pt-8 pb-4 text-xl mb-8 font-semibold text-slate-700;
+}
+
+.c-box a:not([class]) {
+    @apply block mx-auto mt-2 text-slate-700;
+}
+
+/* Form */
+
+.c-form {
+    @apply flex flex-col gap-4;
+}
+
+.c-form__field {
+    @apply flex flex-col gap-1;
+}
+
+.c-form__field label {
+    @apply text-slate-600 mb-1 text-sm;
+}
+
+.c-form__field input {
+    @apply py-2 px-4 rounded-full border-1 border-slate-200 transition-all ease-in-out duration-300 focus:border-slate-400;
+}
+
+/* Button */
+
+.c-button {
+    @apply px-5 py-2 cursor-pointer rounded-full mx-auto mt-6 block max-w-[max-content];
+}
+
+.c-button--primary {
+    @apply bg-blue-500 transition-all ease-in-out duration-300 text-white hover:bg-blue-600;
+}
+
+.c-button--danger {
+    @apply bg-red-500 transition-all ease-in-out duration-300 text-white hover:bg-red-600;
+}
+
+/* Alert */
+
+.c-alert {
+    @apply px-4 py-2 rounded-full text-center mb-6 border-1;
+}
+
+.c-alert--success {
+    @apply bg-emerald-100/10 border-emerald-500 text-emerald-500;
+}
+
+.c-alert--error {
+    @apply bg-red-100/10 border-red-500 text-red-500;
+}
+
+/* Table */
+.c-table th {
+    @apply px-4 py-2 text-left border-b-1 border-dashed border-slate-200 font-bold text-slate-700;
+}
+
+.c-table td {
+    @apply px-4 py-2 text-left border-b-1 border-dashed border-slate-200 font-normal text-slate-700;
+}
