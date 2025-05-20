@@ -46,13 +46,16 @@ php artisan key:generate
 
 ### 3. Configure database
 
-Edit the `.env` file with your DB credentials:
+Edit the `.env` file with your DB credentials if needed:
 
 ```
 DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
 ```
+
+Or simply use SQLite as configured:
+DB_CONNECTION=sqlite
 
 ### 4. Run migrations
 
