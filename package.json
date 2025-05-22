@@ -4,7 +4,7 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "publish": "git add . && git pull && git commit -m 'laravel-authentication' && git push"
+        "publish": "npm run build && git add . && git pull && git commit -m 'laravel-authentication' && git push"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
