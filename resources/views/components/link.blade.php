@@ -1,0 +1,1 @@
+<a href="{{ $href }}" class="block mx-auto mt-2 text-slate-700">{{ $slot }}</a>
