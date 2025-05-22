@@ -10,7 +10,7 @@
     @livewireStyles
 </head>
 
-<body>
+<body class="flex items-center justify-center min-h-[100dvh] bg-slate-100">
     @yield('content')
     @livewireScripts
 </body>
