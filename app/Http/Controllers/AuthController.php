@@ -30,7 +30,7 @@ class AuthController extends Controller
                 'email'     => $request->email,
                 'password'  => $request->password
             ]);
-            return redirect()->route('login.form')->with('success', 'User created!');
+            return redirect('/login')->with('success', 'User created!');
         } catch (Exception $e) {
             return back()->withInput()->with('error', 'User was not created.');
         }
