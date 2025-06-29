@@ -1,4 +1,4 @@
-## About the project
+# About the project
 
 This is a basic user authentication system built with Laravel. Created for portfolio purposes to practice auth flow and form validation.
 
@@ -16,7 +16,7 @@ This is a basic user authentication system built with Laravel. Created for portf
 - Tailwind CSS  
 - SQLite  
 
-## Main Files
+# Main Files
 
 ### Routes
 
