@@ -1,3 +1,5 @@
+![0_Y_KWr4Ht5ZYRiYV4](https://github.com/user-attachments/assets/9bb08b29-b35b-4094-b49d-6642bd7ce705)
+
 ## About the project
 
 This is a basic user authentication system built with Laravel. Created for portfolio purposes to practice auth flow and form validation.
