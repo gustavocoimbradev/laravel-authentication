@@ -29,7 +29,11 @@ This is a basic user authentication system built with Laravel. Created for portf
 - [app/Http/Controllers/LoginController.php](app/Http/Controllers/LoginController.php) - Login controller  
 - [app/Http/Controllers/RegisterController.php](app/Http/Controllers/RegisterController.php) - Registration controller  
 - [app/Http/Controllers/DashboardController.php](app/Http/Controllers/DashboardController.php) - Dashboard controller  
-- [app/Http/Controllers/LogoutController.php](app/Http/Controllers/LogoutController.php) - Logout controller  
+- [app/Http/Controllers/LogoutController.php](app/Http/Controllers/LogoutController.php) - Logout controller 
+
+#### Middlewares
+
+- [app/Http/Middleware/AuthMiddleware.php](app/Http/Middleware/AuthMiddleware.php) - Custom authentication middleware  
 
 #### Views
 
