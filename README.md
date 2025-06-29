@@ -1,6 +1,6 @@
 ## About the project
 
-A basic user authentication system built with Laravel. Created for portfolio purposes to practice auth flow and form validation.
+This is a basic user authentication system built with Laravel. Created for portfolio purposes to practice auth flow and form validation.
 
 ### Features
 
