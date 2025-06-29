@@ -1,4 +1,4 @@
-![0_Y_KWr4Ht5ZYRiYV4](https://github.com/user-attachments/assets/9bb08b29-b35b-4094-b49d-6642bd7ce705)
+<img src="https://github.com/user-attachments/assets/9bb08b29-b35b-4094-b49d-6642bd7ce705" alt="Imagem" height="200">
 
 ## About the project
 
