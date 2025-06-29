@@ -28,6 +28,10 @@ This is a basic user authentication system built with Laravel. Created for portf
 
 - [app/Http/Middleware/AuthMiddleware.php](app/Http/Middleware/AuthMiddleware.php) - Authentication middleware  
 
+#### Migrations
+
+- [database/migrations/0001_01_01_000000_create_users_table.php](database/migrations/0001_01_01_000000_create_users_table.php) – Creates the `users` table   
+
 #### Models
 
 - [app/Models/User.php](app/Models/User.php) - User model
