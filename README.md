@@ -33,7 +33,7 @@ This is a basic user authentication system built with Laravel. Created for portf
 
 #### Middlewares
 
-- [app/Http/Middleware/AuthMiddleware.php](app/Http/Middleware/AuthMiddleware.php) - Custom authentication middleware  
+- [app/Http/Middleware/AuthMiddleware.php](app/Http/Middleware/AuthMiddleware.php) - Authentication middleware  
 
 #### Views
 
