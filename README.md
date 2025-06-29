@@ -30,7 +30,7 @@ This is a basic user authentication system built with Laravel. Created for portf
 
 #### Models
 
-- [app/Models/User.php](app/Models/User) - User model
+- [app/Models/User.php](app/Models/User.php) - User model
 
 #### Views
 
