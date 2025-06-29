@@ -36,9 +36,8 @@ This is a basic user authentication system built with Laravel. Created for portf
 
 - [resources/views/login/index.blade.php](resources/views/login/index.blade.php) - Login form view  
 - [resources/views/register/index.blade.php](resources/views/register/index.blade.php) - Registration form view  
-- [resources/views/dashboard/index.blade.php](resources/views/dashboard/index.blade.php) - Dashboard view  
-
-- [resources/views/components/button.blade.php](resources/views/components/button.blade.php) - Button component  
+- [resources/views/dashboard/index.blade.php](resources/views/dashboard/index.blade.php) - Dashboard view
+- [resources/views/components/button.blade.php](resources/views/components/button.blade.php) - Button component 
 - [resources/views/components/alert.blade.php](resources/views/components/alert.blade.php) - Alert messages  
 - [resources/views/components/link.blade.php](resources/views/components/link.blade.php) - Link component  
 - [resources/views/components/box.blade.php](resources/views/components/box.blade.php) - Box container  
