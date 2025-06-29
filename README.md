@@ -18,7 +18,7 @@ This is a basic user authentication system built with Laravel. Created for portf
 - Tailwind CSS  
 - SQLite  
 
-## Main Files
+## Main files
 
 #### Routes
 
